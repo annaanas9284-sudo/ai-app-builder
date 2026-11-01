@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace '__PACKAGE__'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId '__PACKAGE__'
+        minSdk 24
+        targetSdk 34
+        versionCode __VERSION_CODE__
+        versionName "__VERSION_NAME__"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// No external libraries are needed: the app is one WebView that shows assets/index.html.
+dependencies {
+}

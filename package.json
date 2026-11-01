@@ -1,0 +1,15 @@
+{
+  "name": "ai-app-builder",
+  "version": "1.0.0",
+  "description": "Create simple Android apps and build APKs in the cloud. (AI features are planned for a future update.)",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
