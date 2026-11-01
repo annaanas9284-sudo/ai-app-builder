@@ -1,6 +1,6 @@
 name: Android APK Build
 
-on: [push, workflow_dispatch]
+'on': [push, workflow_dispatch]
 
 jobs:
 test:
